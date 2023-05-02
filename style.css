@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+  color: rgb(204, 220, 118);
+}
+
+.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("image/icons8-linkedin-48.png"); /* substitua "icone.png" pela URL ou caminho do arquivo da imagem do seu ícone */
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+
+.iconGit {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("image/icons8-github.gif"); /* substitua "icone.png" pela URL ou caminho do arquivo da imagem do seu ícone */
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+
+.iconEmail {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("image/icons8-gmail-50.png"); /* substitua "icone.png" pela URL ou caminho do arquivo da imagem do seu ícone */
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+
+.containerLogo { 
+display: flex;
+justify-content:end;
+gap: 20px;
+}
+
+.projetos {
+  display: flex;
+  align-items:flex-end;
+flex-direction: column;
+color: rgb(204, 220, 118);
+padding-right: 10%;
+/* margin-top: -2%; */
+
+}
+
+.bemVindo {
+  padding-left: 20%;
+  margin-top: 5%;
+}
+
+.Descricao {
+  padding-left: 20%;
+  margin-top: 3%;
+}
+
+.certificado {
+  display: flex;
+  align-items:flex-end;
+flex-direction: column;
+padding-right: 5%;
+margin-top: -10%;
+gap: 10px;
+
+}
+
+.color {
+  color: rgb(204, 220, 118);
+}
+
+.Carousel {
+display: flex;
+/* align-items:center; */
+justify-content: center;
+/* margin-top: -7%; */
+}
+
