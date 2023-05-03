@@ -1,6 +1,16 @@
 body {
   background-color: black;
   color: rgb(204, 220, 118);
+  background-image: url("image/Gal-xia-tem-tico-espa-o-star-wars-noite-c-u-foto-pano-de-fundo-vinil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* min-height: 100%;
+  min-width: 100%; */
+  /* width: 10%;
+  height: 10%; 
+  bottom: 0%;
+  right: 0%;  */
+
 }
 
 .icon {
@@ -28,6 +38,16 @@ body {
   width: 30px;
   height: 30px;
   background-image: url("image/icons8-gmail-50.png"); /* substitua "icone.png" pela URL ou caminho do arquivo da imagem do seu ícone */
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+
+.iconWhats {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("image/icons8-whatsapp\ \(1\).gif"); /* substitua "icone.png" pela URL ou caminho do arquivo da imagem do seu ícone */
   background-size: contain;
   background-repeat: no-repeat;
   text-indent: -9999px;
