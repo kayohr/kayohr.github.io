@@ -1,9 +1,9 @@
 body {
   background-color: black;
   color: rgb(204, 220, 118);
-  background-image: url("image/Gal-xia-tem-tico-espa-o-star-wars-noite-c-u-foto-pano-de-fundo-vinil.jpg");
+  /* background-image: url("image/Gal-xia-tem-tico-espa-o-star-wars-noite-c-u-foto-pano-de-fundo-vinil.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   /* min-height: 100%;
   min-width: 100%; */
   /* width: 10%;
@@ -11,6 +11,51 @@ body {
   bottom: 0%;
   right: 0%;  */
 
+}
+
+.menu {
+  background-color: #18181B;
+  margin: 5%;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 8px 0;
+  border-radius: 25px;
+  border: 0.1px solid #099FFF;
+  box-shadow:  0 4px 8px 0 #00FFFF, 0 6px 20px 0
+  rgb(0,0,0,0.19);
+  margin-top: -1%;
+
+}
+
+.listaMenus {
+margin: auto;
+color: white;
+font-size: 20px;
+cursor: pointer;
+color: #00FFFF;
+
+}
+.listaMenus:after {
+  display: block;
+}
+.listaMenus:hover:after {
+  transform: scaleX(1);
+}
+
+/* .curriculo {
+  background-color: #18181B;
+  border: 0.1px solid #099FFF;
+  box-shadow:  0 4px 8px 0 #00FFFF, 0 6px 20px 0
+  rgb(0,0,0,0.19);
+ 
+} */
+.bg {
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+  opacity: 0.3;
+  z-index: -1;
+  padding-left:  30%;
 }
 
 .icon {
@@ -71,7 +116,7 @@ padding-right: 10%;
 
 .bemVindo {
   padding-left: 20%;
-  margin-top: 5%;
+  margin-top: 1px;
 }
 
 .Descricao {
