@@ -146,6 +146,15 @@ body {
 		section {
 			width: 33.33%;
 			text-align: center;
+			border: 1px solid white;
+			padding: 10px;
+			display: inline-block;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			width: calc(33.33% - 10px);
+			box-sizing: border-box;
+			background-color: rgba(255, 255, 255, 0.5);
+
 		}
 
 		.prevmusic-info {
@@ -155,4 +164,11 @@ body {
 		  .prevmusic {
 			display: flex;
 			flex-direction: row;
+		  }
+
+		 
+		  
+		  div {
+			display: flex;
+			flex-wrap: wrap;
 		  }
