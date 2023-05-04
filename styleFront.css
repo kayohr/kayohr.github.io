@@ -115,3 +115,23 @@ body {
 				transform: perspective(600px) rotateX(25deg) translateY(-1300px);
 			}
 		}
+
+		.net {
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			background-image: url("image/icons8-internet.gif"); /* substitua "icone.png" pela URL ou caminho do arquivo da imagem do seu ícone */
+			background-size: contain;
+			background-repeat: no-repeat;
+			text-indent: -9999px;
+		}
+
+		.iconGit {
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			background-image: url("image/icons8-github.gif"); /* substitua "icone.png" pela URL ou caminho do arquivo da imagem do seu ícone */
+			background-size: contain;
+			background-repeat: no-repeat;
+			text-indent: -9999px;
+		  }
