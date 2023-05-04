@@ -135,3 +135,24 @@ body {
 			background-repeat: no-repeat;
 			text-indent: -9999px;
 		  }
+
+		  .containerProject {
+			display: flex;
+			flex-wrap: wrap;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+	
+		section {
+			width: 33.33%;
+			text-align: center;
+		}
+
+		.prevmusic-info {
+			display: flex;
+			flex-direction: column;
+		  }
+		  .prevmusic {
+			display: flex;
+			flex-direction: row;
+		  }
