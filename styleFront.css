@@ -1,174 +1,187 @@
 body {
-    background-color: black;
-    color: rgb(204, 220, 118);
-  }
+	background-color: black;
+	color: rgb(204, 220, 118);
+}
 
 
-  .menu {
-    background-color: #18181B;
-    margin: 5%;
-    width: 450px;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 8px 0;
-    border-radius: 25px;
-    border: 0.1px solid #099FFF;
-    box-shadow:  0 4px 8px 0 #00FFFF, 0 6px 20px 0
-    rgb(0,0,0,0.19);
-    margin-top: -1%;
-  
-  }
-  
-  .listaMenus {
-  margin: auto;
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-  color: #00FFFF;
-  
-  }
-  .listaMenus:after {
-    display: block;
-  }
-  .listaMenus:hover:after {
-    transform: scaleX(1);
-  }
-  .containerCOntato  { 
-    display: flex;
-    justify-content:end;
-    gap: 20px;
-    color: #00FFFF;
-    }  
+.menu {
+	background-color: #18181B;
+	margin: 5%;
+	width: 450px;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	padding: 8px 0;
+	border-radius: 25px;
+	border: 0.1px solid #099FFF;
+	box-shadow: 0 4px 8px 0 #00FFFF, 0 6px 20px 0 rgb(0, 0, 0, 0.19);
+	margin-top: -1%;
+
+}
+
+.listaMenus {
+	margin: auto;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	color: #00FFFF;
+
+}
+
+.listaMenus:after {
+	display: block;
+}
+
+.listaMenus:hover:after {
+	transform: scaleX(1);
+}
+
+.containerCOntato {
+	display: flex;
+	justify-content: end;
+	gap: 20px;
+	color: #00FFFF;
+}
 
 
-    body {
-			background-color: black;
-			color: yellow;
-			font-family: 'Arial', sans-serif;
-      /* background-image: url(/image/);
+body {
+	background-color: black;
+	color: yellow;
+	font-family: 'Arial', sans-serif;
+	/* background-image: url(/image/);
       background-repeat: no-repeat;
       background-size: cover;  */
 
-		}
+}
 
-		.container {
-			position: relative;
-			width: 100%;
-			height: 100vh;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			overflow: hidden;
-		}
+.container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
 
-		.crawl {
-			position: relative;
-			top: 0;
-			animation: crawl 60s linear;
-			animation-fill-mode: forwards;
-		}
+.crawl {
+	position: relative;
+	top: 0;
+	animation: crawl 60s linear;
+	animation-fill-mode: forwards;
+}
 
-		.crawl-text {
-			transform: perspective(600px) rotateX(25deg);
-			transform-origin: 50% 100%;
-			font-size: 24px;
-			line-height: 1.8;
-			white-space: pre-wrap;
-			/* opacity: 0; */
-			animation: text 60s linear;
-			animation-fill-mode: forwards;
-			animation-delay: 0.7s;
-		}
+.crawl-text {
+	transform: perspective(600px) rotateX(25deg);
+	transform-origin: 50% 100%;
+	font-size: 24px;
+	line-height: 1.8;
+	white-space: pre-wrap;
+	/* opacity: 0; */
+	animation: text 60s linear;
+	animation-fill-mode: forwards;
+	animation-delay: 0.7s;
+}
 
-		.crawl-text:before {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background: linear-gradient(to bottom, 
-      /* transparent 0%, */
-       black 100%);
-			/* opacity: 0.3;
+.crawl-text:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom,
+			/* transparent 0%, */
+			black 100%);
+	/* opacity: 0.3;
 			z-index: -1; */
-		}
+}
 
-		@keyframes crawl {
-			from {
-				top: 0;
-			}
-			to {
-				top: -1000px;
-			}
-		}
+@keyframes crawl {
+	from {
+		top: 0;
+	}
 
-		@keyframes text {
-			from {
-				 opacity: 0;
-				 transform: perspective(600px) rotateX(25deg) translateY(100px);
-			}
-			to {
-				opacity: 1;
-				transform: perspective(600px) rotateX(25deg) translateY(-1300px);
-			}
-		}
+	to {
+		top: -1000px;
+	}
+}
 
-		.net {
-			display: inline-block;
-			width: 30px;
-			height: 30px;
-			background-image: url("image/icons8-internet.gif"); /* substitua "icone.png" pela URL ou caminho do arquivo da imagem do seu ícone */
-			background-size: contain;
-			background-repeat: no-repeat;
-			text-indent: -9999px;
-		}
+@keyframes text {
+	from {
+		opacity: 0;
+		transform: perspective(600px) rotateX(25deg) translateY(100px);
+	}
 
-		.iconGit {
-			display: inline-block;
-			width: 30px;
-			height: 30px;
-			background-image: url("image/icons8-github.gif"); /* substitua "icone.png" pela URL ou caminho do arquivo da imagem do seu ícone */
-			background-size: contain;
-			background-repeat: no-repeat;
-			text-indent: -9999px;
-		  }
+	to {
+		opacity: 1;
+		transform: perspective(600px) rotateX(25deg) translateY(-1300px);
+	}
+}
 
-		  .containerProject {
-			display: flex;
-			flex-wrap: wrap;
-			max-width: 800px;
-			margin: 0 auto;
-		}
-	
-		section {
-			width: 33.33%;
-			text-align: center;
-			border: 1px solid white;
-			padding: 10px;
-			display: inline-block;
-			margin-right: 10px;
-			margin-bottom: 10px;
-			width: calc(33.33% - 10px);
-			box-sizing: border-box;
-			background-color: rgba(255, 255, 255, 0.5);
+.net {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-image: url("image/icons8-internet.gif");
+	/* substitua "icone.png" pela URL ou caminho do arquivo da imagem do seu ícone */
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
 
-		}
+.iconGit {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-image: url("image/icons8-github.gif");
+	/* substitua "icone.png" pela URL ou caminho do arquivo da imagem do seu ícone */
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
 
-		.prevmusic-info {
-			display: flex;
-			flex-direction: column;
-		  }
-		  .prevmusic {
-			display: flex;
-			flex-direction: row;
-		  }
+.containerProject {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+	margin: 0 auto;
+}
 
-		 
-		  
-		  div {
-			display: flex;
-			flex-wrap: wrap;
-		  }
+section {
+	width: 33.33%;
+	text-align: center;
+	border: 1px solid white;
+	padding: 10px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: calc(33.33% - 10px);
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+section:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease-in-out;
+
+}
+
+.prevmusic-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.prevmusic {
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+div {
+	display: flex;
+	flex-wrap: wrap;
+}
